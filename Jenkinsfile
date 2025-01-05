@@ -11,7 +11,7 @@ pipeline {
 
             steps{
 
-                checkout([$class: 'GitSCM', branches: [[name: '*/main']], extensions: [], userRemoteConfigs: [[credentialsId: 'github-cred', url: 'https://github.com/akhildevops-practice/Prac-jenkins-con.git']]])
+                checkout([$class: 'GitSCM', branches: [[name: '*/master']], extensions: [], userRemoteConfigs: [[credentialsId: 'github-cred', url: 'https://github.com/akhildevops-practice/Prac-jenkins-con.git']]])
 
             }
         }
