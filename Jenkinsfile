@@ -1,6 +1,6 @@
 pipeline {
     environment {
-    imagename = "backend img"
+    imagename = "backendimmg"
     jenkinsProject = 'calculator-webapp-backend'
   }
 
